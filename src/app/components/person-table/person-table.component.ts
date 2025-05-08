@@ -1,3 +1,5 @@
+// This Angular component, PersonTableComponent, is designed to display details about a person or an "EPerson" (which could be an extended version of Person with additional properties). The component uses @Input() to receive data passed from a parent component and provides methods to check whether the data is of type Person or EPerson. It also determines what to display based on whether the person has an address or education field.
+
 import { Component, Input } from '@angular/core';
 import { EPerson } from 'src/app/shared/interfaces/eperson';
 import { Person } from 'src/app/shared/interfaces/person';

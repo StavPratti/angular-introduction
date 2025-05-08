@@ -1,3 +1,5 @@
+// This Angular component defines a template-driven form, which is another way of building forms in Angular.
+
 import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, NgForm} from '@angular/forms'

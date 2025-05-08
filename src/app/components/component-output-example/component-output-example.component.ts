@@ -1,3 +1,5 @@
+// This Angular code defines a UI feature that shows detailed information about a person when an event occurs (like a button click).
+
 import { Component, Inject, inject } from '@angular/core';
 import { EPerson, ManyPerson } from 'src/app/shared/interfaces/eperson';
 import { SimpleDatatableComponent } from 'src/app/components/simple-datatable/simple-datatable.component';

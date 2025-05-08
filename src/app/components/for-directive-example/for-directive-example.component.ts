@@ -1,3 +1,5 @@
+// This Angular component (ForDirectiveExampleComponent) demonstrates how to use the *ngFor directive to loop through and display a list of users — in this case, an array of Person objects.
+
 import { Component } from '@angular/core';
 import { Person } from 'src/app/shared/interfaces/person';
 import { PersonTableComponent } from '../person-table/person-table.component';
