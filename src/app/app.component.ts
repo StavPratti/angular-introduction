@@ -4,11 +4,11 @@ import { RouterOutlet } from '@angular/router';
 // import { Person } from './shared/interfaces/person';
 // import { EventBindExampleComponent } from './components/event-bind-example/event-bind-example.component';
 import { ListGroupMenuComponent } from './components/list-group-menu/list-group-menu.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
-  // standalone:true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ListGroupMenuComponent, NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -16,7 +16,7 @@ import { ListGroupMenuComponent } from './components/list-group-menu/list-group-
 export class AppComponent {
   // name = 'Markos';
 
-  // Step 1: One way binding of data
+  // // Step 1: One way binding of data
   // person = {
   //   givenName: 'Markos',
   //   surName: 'Karampatsis',

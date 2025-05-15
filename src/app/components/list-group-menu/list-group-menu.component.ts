@@ -1,5 +1,3 @@
-// This Angular component, ListGroupMenuComponent, appears to create a navigation menu based on an array of objects (menu) and uses the RouterLink and RouterLinkActive directives to handle navigation and active link styling.
-
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
@@ -17,6 +15,9 @@ export class ListGroupMenuComponent {
     { text: 'Event-Bind-Example', linkName:'event-bind-example'},
     { text: 'Simple DataTable Example', linkName:'simple-datatable-example'},
     { text: 'Template Driven Form Example', linkName: 'template-driven-form-example'},
-    { text: 'Reactive Form Example', linkName: 'reactive-form-example' }
+    { text: 'Reactive Form Example', linkName: 'reactive-form-example' },
+    { text: 'HTTP Client Example', linkName: 'http-client-example'},
+    { text: 'User Registration Component', linkName: 'user-registration-example'},
+    { text: "User Login", linkName:'login'}
   ]
 }
